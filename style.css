@@ -2,6 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+html {
     background-color: black;
 }
 
@@ -19,4 +22,21 @@
     flex-wrap: wrap;
     column-gap: 6px;
     row-gap: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.down-bar {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+    background-color: #222222;
+}
+
+.icons {
+    filter: invert(100%);
+    width: 40px ;
 }
