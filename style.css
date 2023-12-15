@@ -2,4 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+}
+
+.container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    width: 1440px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 6px;
+    row-gap: 10px;
 }
